@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Gram - Your Source for Gaming Articles">
+  <meta name="description" content="Stay updated with the latest gaming news, reviews, and articles from top sources like Steam, IGN, and Kotaku. Discover guides, walkthroughs, and more.">
+  <meta name="keywords" content="gaming, articles, Steam, IGN, Kotaku, news, reviews, guides, walkthroughs, PC gaming, console gaming, video games">
+  <meta name="author" content="Gaming Hub">
+  <meta name="robots" content="index, follow">
+  <title>Gram: The World of Gaming</title>
+
+  <!-- FLOWBITE TAILWIND -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-800">
+
+  <!-- Nav -->
+<nav class="sticky top-0 z-50 border-gray-800 bg-blue-900 dark:bg-gray-800 dark:border-gray-700">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="./images/rainbow.png" class="h-8" alt="Gram Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Gram</span>
+    </a>
+    <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+      <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+        <li>
+          <a href="./homepage.html" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-200 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="./download.html" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Download</a>
+        </li>
+        <li>
+          <a href="./about.html" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="./contact.html" class="block py-2 px-3 md:p-0 text-gray-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Carousel -->
+  <div id="animation-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-96 overflow-hidden">
+      <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTctnbpLJndIOLUMBYoj3M3uUHwfEIM0talF58MWY_dFjUyv1pJqqXSwoos66qOTIF4arsvjsCYvXIGJLd0H9SUuRzHV1koJIn6Azd6pPhv7lZ_QRxHSY6L7BSQCmsbzGJJ_Bp7kDQCCcEBzWLIWVM5IRFBpN8Qv6m2_BG1dzjdcbk-&h=1080&w=1920&format=jpg" class="absolute block w-full h-full object-cover" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/KotakuLogo.jpg/800px-KotakuLogo.jpg" class="absolute block w-full h-full object-cover" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+        <img src="./images/steam.jpg" class="absolute block w-full h-full object-cover" alt="...">
+      </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+        </svg>
+        <span class="sr-only">Previous</span>
+      </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+        </svg>
+        <span class="sr-only">Next</span>
+      </span>
+    </button>
+  </div>
+
+  <!-- Body Text -->
+  <div class="text-center my-10">
+    <p class="text-3xl font-extrabold text-gray-900 dark:text-white">Welcome to Gram!</p>
+    <div class="max-w-screen-md mx-auto mt-6 text-lg text-gray-500 dark:text-gray-400">
+      Explore sites that will help you step up your gaming needs! Whether it may be guides, walkthroughs, exploits, or plain advices, these websites have you covered! From detailed reviews and news coverage, websites like Steam, IGN, and Kotaku have paved their way to make sure that gamers will be guided and informed on their favorite gaming entertainment.
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- Sections -->
+
+<p class="text-3xl font-extrabold text-center text-gray-900 dark:text-white">Best Gaming Sites!</p>
+
+  <br>
+
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+  <a href="https://store.steampowered.com" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/SteamHome.jpg" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Steam</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Steam is the premier digital distribution platform for PC gaming, offering an extensive library of games across all genres for purchase and download. Developed by Valve Corporation, Steam has become a cornerstone of the gaming community, providing not only a vast selection of titles but also a robust set of features including automatic updates, cloud saves, and a vibrant community.</p>
+    </div>
+</a>
+
+<a href="https://sea.ign.com" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/IGNHome.png" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IGN</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">IGN (Imagine Games Network) is a leading website dedicated to all things gaming and entertainment. Renowned for its comprehensive coverage, IGN provides the latest news, in-depth reviews, exclusive previews, and detailed walkthroughs for games across all platforms. Beyond gaming, IGN also covers movies, TV shows, comics, and tech, making it a go-to destination for fans of pop culture.</p>
+  </div>
+</a>
+
+<a href="https://kotaku.com" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/KotakuHome.png" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kotaku</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kotaku is a premier destination for gaming news, reviews, and commentary, offering a unique perspective on the world of video games and beyond. Known for its engaging and often irreverent style, Kotaku delivers timely updates on the latest game releases, industry trends, and technological advancements. The site also delves into the cultural impact of gaming, exploring how games intersect with society, politics, and everyday life.</p>
+  </div>
+</a>
+
+</div>
+
+<br>
+<br>
+
+<p class="text-3xl font-extrabold text-center text-gray-900 dark:text-white">More of these websites!</p>
+
+<br>
+
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+  <a href="https://www.gamespot.com" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/gamespot.png" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Gamespot</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">GameSpot is an American video gaming website that provides news, reviews, previews, downloads, and other information on video games. The site was launched on May 1, 1996, created by Pete Deemer, Vince Broady and Jon Epstein. In addition to the information produced by GameSpot staff, the site also allows users to write their own reviews, blogs, and post on the site's forums. It has been owned by Fandom, Inc. since October 2022.</p>
+    </div>
+</a>
+
+<a href="https://www.pcgamer.com" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/pcgamer.png" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PC Gamer</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">PC Gamer is a magazine and website founded in the United Kingdom in 1993 devoted to PC gaming and published monthly by Future plc. The magazine has several regional editions, with the UK and US editions becoming the best selling PC games magazines in their respective countries. The magazine features news on developments in the video game industry, previews of new games, and reviews of the latest popular PC games, along with other features relating to hardware, mods, "classic" games and various other topics.</p>
+  </div>
+</a>
+
+<a href="https://www.eurogamer.net" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/eurogamer.png" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EuroGamer</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Eurogamer is a British video game journalism website launched in 1999 alongside parent company Gamer Network. In 2008, it started in the formerly eponymous trade fair EGX (Eurogamer Expo until 2013) organised by its parent company. From 2013 to 2020, sister site USGamer ran independently under its parent company.</p>
+  </div>
+</a>
+
+</div>
+  
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 dark:bg-gray-800">
+    <div class="max-w-screen-xl mx-auto py-8 px-4">
+      <div class="flex justify-between items-center">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="./images/rainbow.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Gram</span>
+        </a>
+        <ul class="flex space-x-4 text-sm text-gray-200 dark:text-gray-400 rtl:space-x-reverse">
+          <li><a href="./about.html" class="hover:underline">About</a></li>
+          <li><a href="./index.html" class="hover:underline">Landing Page</a></li>
+          <li><a href="./contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOWBITE TAILWIND -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
